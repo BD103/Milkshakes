@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}" data-theme="dark">
+  {%- include head.html -%}
+
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        {{ content }}
+
+        <div class="credits">
+          &copy;&nbsp;{{
+          "now" | date: "%Y" }}&nbsp;{{site.author}} <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; display: inline" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"></a> &nbsp; • &nbsp; Theme&nbsp;
+          <a
+            href="https://github.com/abhinavs/moonwalk"
+            target="_blank"
+            rel="noreferrer"
+            >Moonwalk Edit</a
+          >
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

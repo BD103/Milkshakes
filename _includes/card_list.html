@@ -1,0 +1,21 @@
+<ul class="horizontal-list">
+  {% for item in include.collection %}
+
+  <li class="card">
+    <a href="assets/shakes/{{ item.file }}">
+      <span class="header">
+        {{ item.name }} {% if item.highlight %}
+        <mark>{{ item.highlight }}</mark>
+        {% endif %}
+      </span>
+
+      <hr />
+
+      {% if item.info != false %}
+      <p class="body">{{ item.info }}</p>
+      {% endif %}
+    </a>
+  </li>
+
+  {% endfor %}
+</ul>

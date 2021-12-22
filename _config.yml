@@ -1,0 +1,13 @@
+title: BD103's Milkshakes
+author: BD103
+email: dont@stalk.me
+description: A collection of images (milkshakes) made in Blender.
+baseurl: ""
+url: ""
+github_username: BD103
+timezone: America/New_York
+
+theme: minima
+
+plugins:
+  - jekyll-feed
