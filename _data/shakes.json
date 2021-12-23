@@ -8,5 +8,15 @@
     "name": "Glowy Sphere",
     "file": "glowy-sphere.png",
     "info": "Not the best name, but this cool cage-like orb was fun to make."
+  },
+  {
+    "name": "Cave Fog",
+    "file": "cave-fog.png",
+    "info": "A sci-fi blue cave scene with futuristic technology in the walls. (Or some sort of lore :P)"
+  },
+  {
+    "name": "Mint Cubes",
+    "file": "mint-cubes.png",
+    "info": "Glass blocks surrounded by the shards of sky blue."
   }
 ]
